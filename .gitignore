@@ -1,0 +1,29 @@
+# Credenciais e variáveis de ambiente
+.env
+*.cfg
+*.ini
+
+# Dados brutos - arquivos grandes não vão pro GitHub
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
